@@ -8,6 +8,10 @@ import { ProjectsComponent } from './projects-component/projects.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { JokesComponent } from './jokes/jokes.component';
 import { IntroComponent } from './intro/intro.component';
+import { WorkComponent } from './work/work.component';
+import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { IntroComponent } from './intro/intro.component';
     ProjectsComponent,
     NavBarComponent,
     JokesComponent,
-    IntroComponent
+    IntroComponent,
+    WorkComponent,
+    EducationComponent,
+    SkillsComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
