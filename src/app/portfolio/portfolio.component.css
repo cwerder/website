@@ -1,0 +1,11 @@
+.tile {
+    float: left;
+    /* border-style: solid;
+    border-color: black;
+    border-width: 5px; */
+    width: 150px;
+}
+
+.portfolio-info {
+    background-color: gray;
+}
